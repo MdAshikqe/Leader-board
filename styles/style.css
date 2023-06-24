@@ -159,3 +159,57 @@ top bloags end
 
 /* ---------
  End -------*/
+
+
+/* ------
+ media queri 
+ -----------*/
+
+/* -------------
+ FOR mobile device 
+ -----------------*/
+@media only screen and (max-width:688px) {
+    .continer {
+        width: 100%;
+    }
+
+    .players,
+    .all-blogs,
+    .all-course {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        justify-items: stretch;
+        align-items: flex-start;
+    }
+
+}
+
+/* ----------
+for Tablet in use 
+------------------*/
+@media only screen and (min-width:687px) and (max-width:991px) {
+
+
+    .continer {
+        width: 100%;
+
+    }
+
+    .players,
+    .all-blogs {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: stretch;
+        margin: 10px;
+
+    }
+
+    .all-course {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        margin: 10px;
+
+    }
+
+}

@@ -1,0 +1,143 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Poppins&display=swap');
+
+/* other info and utility */
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #FFE4E8;
+
+
+}
+
+/* top player start */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.continer {
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+    flex-shrink: 0;
+    margin-top: 21px;
+    border-radius: 5px;
+    /* border: rgba(128, 128, 128, 0.311);
+    box-shadow: 1px 1px 15px; */
+}
+
+hr {
+    border: 1px solid rgb(207, 205, 205);
+}
+
+.top-plyer {
+    margin-bottom: 30px;
+}
+
+.topPlayer-title {
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.playerName {
+    margin: 16px;
+}
+
+/*-----------
+ top player start 
+------------ */
+
+
+
+/* top blog start */
+.all-blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.blogs-info {
+    display: flex;
+    padding-top: 36px;
+}
+
+.blogs-info .blogImage img {
+    width: 224px;
+    height: 127px;
+}
+
+.blogsDettelas {
+    margin: 10px;
+
+}
+
+p {
+
+    font-weight: 700;
+    font-family: Poppins;
+}
+
+.blogsDettelas a {
+    text-decoration: none;
+    font-family: Poppins;
+    color: #562EFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-family: Poppins;
+}
+
+/* --------
+top bloags end
+------------ */
+.all-course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course {
+    width: 270.423px;
+    height: 350.786px;
+    border: 1px solid rgba(128, 128, 128, 0);
+    box-shadow: 1px 1px 5px;
+    border-radius: 10px;
+}
+
+.course img {
+    width: 266px;
+    height: 141px;
+}
+
+.Rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}

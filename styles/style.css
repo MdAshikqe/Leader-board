@@ -82,6 +82,12 @@ hr {
     padding-top: 36px;
 }
 
+.blogTitle {
+    color: #562EFF;
+}
+
+
+
 .blogs-info .blogImage img {
     width: 224px;
     height: 127px;
@@ -115,6 +121,10 @@ span {
 /* --------
 top bloags end
 ------------ */
+
+/* Couse Start */
+
+
 .all-course {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -128,9 +138,14 @@ top bloags end
     border-radius: 10px;
 }
 
+.courseTitle {
+    color: #562EFF;
+}
+
 .course img {
     width: 266px;
     height: 141px;
+
 }
 
 .Rating {
@@ -141,3 +156,6 @@ top bloags end
 .fa-star.filled {
     color: #FFC014;
 }
+
+/* ---------
+ End -------*/
